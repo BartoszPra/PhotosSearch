@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B830CC67-BF88-4AD1-B52E-592764920787",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PhotosSearch.xcodeproj",
+        "identifier" : "A5E197B92A1C155F009ED488",
+        "name" : "PhotosSearchTests"
+      }
+    }
+  ],
+  "version" : 1
+}

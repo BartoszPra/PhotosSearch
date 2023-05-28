@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "65673E89-7F7A-41C6-BF9D-2CD71DECE690"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83E321A4-9AE6-47D1-8658-B65EFAD1E459"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotosSearch/ViewModels/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "getImagesFromApi(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83E321A4-9AE6-47D1-8658-B65EFAD1E459 - 3d4e019aebeeba43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Result&lt;PhotosSearch.Images, PhotosSearch.NetworkError&gt;) -&gt; () in PhotosSearch.ListViewModel.getImagesFromApi(url: Foundation.URL) -&gt; ()"
+                  moduleName = "PhotosSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bartoszprazmo/Desktop/PhotosSearch/PhotosSearch/ViewModels/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "83E321A4-9AE6-47D1-8658-B65EFAD1E459 - f80758e2bd837083"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #1 (Swift.Result&lt;PhotosSearch.Images, PhotosSearch.NetworkError&gt;) -&gt; () in PhotosSearch.ListViewModel.getImagesFromApi(url: Foundation.URL) -&gt; ()"
+                  moduleName = "PhotosSearch"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bartoszprazmo/Desktop/PhotosSearch/PhotosSearch/ViewModels/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
