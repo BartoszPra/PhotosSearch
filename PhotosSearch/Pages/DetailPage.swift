@@ -13,19 +13,27 @@ struct DetailPage: View {
 	
 	var body: some View {
 		VStack() {
-			CachedAsyncImage(url: vm.url) { phase in
-				if let image = phase.image {
-					image.resizable()
-						.aspectRatio(contentMode: .fit)
-				} else if phase.error != nil {
-					Image(systemName: "questionmark")
-				} else {
-					ProgressView().progressViewStyle(CircularProgressViewStyle(tint: .blue))
-				}
-			}.frame(height: UIScreen.main.bounds.height/3)
-				.frame(width: UIScreen.main.bounds.width - 5)
-				.background(Color(.lightGray))
-			.cornerRadius(15)
+			if let url = vm.url {
+				CachedAsyncImage(url: url) { phase in
+					if let image = phase.image {
+						image.resizable()
+							.aspectRatio(contentMode: .fit)
+					} else if phase.error != nil {
+						Image(systemName: "questionmark")
+					} else {
+						ProgressView().progressViewStyle(CircularProgressViewStyle(tint: .blue))
+					}
+				}.frame(height: UIScreen.main.bounds.height/3)
+					.frame(width: UIScreen.main.bounds.width - 5)
+					.background(Color(.lightGray))
+					.cornerRadius(15)
+			} else {
+				Image(systemName: "questionmark")
+				.frame(height: UIScreen.main.bounds.height/3)
+					.frame(width: UIScreen.main.bounds.width - 5)
+					.background(Color(.lightGray))
+					.cornerRadius(15)
+			}
 			
 			VStack(alignment: .leading) {
 				Text("Photo Id:  \(vm.id)")

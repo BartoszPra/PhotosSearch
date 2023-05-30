@@ -8,8 +8,9 @@
 import Foundation
 
 
-class ImageViewModel: ObservableObject, Identifiable {
+struct ImageViewModel: Identifiable {
 	
+	var id = UUID()
 	var photoId: String
 	var userId: String
 	var photoTitle: String

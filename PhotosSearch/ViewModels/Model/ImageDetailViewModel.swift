@@ -8,7 +8,7 @@
 import Foundation
 
 
-class ImageDetailViewModel: ObservableObject, Identifiable {
+struct ImageDetailViewModel: Identifiable {
 	
 	var id: String
 	var photoTitle: String
